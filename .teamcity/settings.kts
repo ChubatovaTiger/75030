@@ -46,4 +46,7 @@ object A : BuildType({
                 withPendingChangesOnly = false
         }
     }
+    init {
+  paused = true
+}
 })
