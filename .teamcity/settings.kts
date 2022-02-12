@@ -36,13 +36,5 @@ object A : BuildType({
         root(DslContext.settingsRoot)
     }
     
-    triggers {
-            schedule {
-                schedulingPolicy = cron {
-                    hours = "9"
-                    minutes = "50"
-                }
-                withPendingChangesOnly = false
-            }
-        }
+
 })
