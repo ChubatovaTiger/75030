@@ -41,12 +41,12 @@ object A : BuildType({
         schedule {
             schedulingPolicy = cron {
                     hours = "10"
-                    minutes = "00"
+                    minutes = "05"
                 }
                 withPendingChangesOnly = false
         }
     }
 
-  paused = true
+  paused = false
 
 })
