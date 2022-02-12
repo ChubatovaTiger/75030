@@ -47,6 +47,6 @@ object A : BuildType({
         }
     }
 
-  paused = false
+  paused = true
 
 })
