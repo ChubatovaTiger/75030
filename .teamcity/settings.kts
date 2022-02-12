@@ -40,10 +40,10 @@ object A : BuildType({
     triggers {
         schedule {
             schedulingPolicy = cron {
-                minutes = "9"
-            }
-            branchFilter = ""
-            triggerBuild = always()
+                    hours = "10"
+                    minutes = "00"
+                }
+                withPendingChangesOnly = false
         }
     }
 })
