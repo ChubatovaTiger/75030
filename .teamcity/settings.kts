@@ -43,10 +43,10 @@ object A : BuildType({
                     hours = "11"
                     minutes = "05"
                 }
-                withPendingChangesOnly = true
+                withPendingChangesOnly = false
         }
     }
 
-  paused = true
+  paused = false
 
 })
